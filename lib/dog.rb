@@ -16,7 +16,7 @@ class Dog
      binding.pry
     @@all.each do |dog|
     
-      puts = "#{dog}"
+      puts "#{dog}"
     end
 
   end
