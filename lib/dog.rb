@@ -21,7 +21,5 @@ class Dog
       puts "#{dog.name}"
       
     end
-binding.pry
   end
-  
 end
