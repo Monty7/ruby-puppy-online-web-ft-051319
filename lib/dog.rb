@@ -9,13 +9,15 @@ class Dog
   end
   
   def self.clear_all
+    binding.pry
     @@all.clear
+    
   end
   
   def self.all
    
     @@all.each do |dog|
-      binding.pry
+      
       puts "#{dog.name}"
     end
 
